@@ -8,7 +8,8 @@
  * Controller of the mdAngularApp
  */
 angular.module('mdAngularApp')
-  .controller('MainCtrl', function () {
+  .controller('MainCtrl', function ($scope) {
+    $scope.buttonName = "Example button";
     this.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
